@@ -1,0 +1,39 @@
+
+#rm-form {
+	width:100%;	
+}
+
+#rm-form .rm-form-row {
+	width:100%;
+	overflow:hidden;
+}
+
+#rm-form .rm-form-col {
+	float:left;
+}
+
+#rm-form input,
+#rm-form select {
+	width:100%;
+}
+
+#rm-form textarea {
+	width:100%;
+	height:200px;
+}
+
+#rm-form .rm-error {
+	color:red;
+}
+
+#rm-form .form-body {
+	display:inherit;
+}
+#rm-form .form-success {
+	display:none;
+}
+#rm-form .form-error {
+	display:none;
+}
+
+
