@@ -1,0 +1,29 @@
+.lang-controls {
+	float:right;
+}
+
+.lang-controls li {
+	float:right;
+	margin-right:30px;
+	padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	cursor:pointer;
+	opacity:0.5;
+	font-weight:bold;
+	font-size:11px;
+}
+.lang-controls li:first-child {
+	margin-right:0px;
+}
+.lang-controls li.disabled {
+	opacity:1.0;
+	cursor:none;
+}
+
+.lang-controls li.en {
+	background-image:url(img/en-us.png);
+}
+.lang-controls li.es {
+	background-image:url(img/es-mex.png);
+}
